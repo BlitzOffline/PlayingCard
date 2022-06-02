@@ -56,7 +56,6 @@ namespace PlayingCard
 
         public override string ToString()
         {
-            Console.WriteLine();
             return $"Deck{{{string.Join(", ", _cards)}}}";
         }
     }
