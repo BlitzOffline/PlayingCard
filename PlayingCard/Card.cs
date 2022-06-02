@@ -1,6 +1,6 @@
 ﻿namespace PlayingCard
 {
-    public class Card
+    public readonly struct Card
     {
         public Card(Ranks rank, Suits suit)
         {

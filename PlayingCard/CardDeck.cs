@@ -31,7 +31,7 @@ namespace PlayingCard
 
         public Card DrawCard()
         {
-            if (_cards.Peek() == null) throw new InvalidOperationException("No more cards in the deck.");
+            if (_cards.Count == 0) throw new InvalidOperationException("No more cards in the deck.");
             return _cards.Dequeue();
         }
 
