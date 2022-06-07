@@ -1,8 +1,8 @@
 ﻿namespace PlayingCard
 {
-    public enum Ranks
+    public enum Rank
     {
-        Ace,
+        Ace = 1,
         Two,
         Three,
         Four,
@@ -12,7 +12,7 @@
         Eight,
         Nine,
         Ten,
-        Jack,
+        Jack = 12,
         Queen,
         King
     }

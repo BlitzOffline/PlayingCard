@@ -2,14 +2,14 @@
 {
     public readonly struct Card
     {
-        public Card(Ranks rank, Suits suit)
+        public Card(Rank rank, Suit suit)
         {
             Rank = rank;
             Suit = suit;
         }
 
-        public Ranks Rank { get; }
-        public Suits Suit { get; }
+        public Rank Rank { get; }
+        public Suit Suit { get; }
 
         public override string ToString()
         {
